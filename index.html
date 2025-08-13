@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alzamar Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Alzamar's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi My Name is <span class="purple"> Alzamar</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+
+            </div>
+            <a href="#contact" class="btn">Hire Me</a>
+            <div class="rightSection">
+                <img src="alz.JPG" alt="">
+            </div>
+        </section>
+        <hr>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I’m a passionate BCA student with experience in web development, problem-solving, and building
+                scalable applications.
+            </p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Project One</h3>
+                    <p>I have developed a Disaster Management System.</p>
+                </div>
+                <div class="project">
+                    <h3>Project Two</h3>
+                    <p>I have developed an E-commerce website.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <h2>Get In Touch</h2>
+            <hr class="gt">
+                <input type="hidden" name="access_key" value="55112a3e-5843-45b5-a9dd-45e967a18db9">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Submit <img src="right-arrow.png" alt=""  height="12px" ></button>
+                
+            </form>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+  
+    
+
+</body>
+
+</html>

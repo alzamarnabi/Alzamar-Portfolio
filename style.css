@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(to left bottom, #a08ada, #9e96e1, #9ea1e6, #9faceb, #a3b7ee, #9cbef2, #96c5f5, #92ccf7, #7fd2f6, #6fd7f0, #67dce5, #6adfd7);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(2, 6, 41);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(149, 149, 236);
+    font-size: large;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+
+    width: 34px;
+    font-size: 2.5rem;
+
+}
+
+.rightSection {
+
+    width: 34px;
+}
+
+.rightSection img {
+    margin: 50px;
+    width: 80%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+.btn {
+  background-color: #fff;
+  color: blueviolet;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 25%;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 10%;
+  border: none;
+  cursor: pointer;
+}
+
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+.skills-list li {
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  background-color:  rgb(2, 6, 41);
+}
+
+
+form input,
+form textarea {
+    height: 40px; ;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  align-items: start;
+  flex-direction: column;
+  border-radius: 10px;
+  font-weight: 500;
+ outline: none;
+ border: none;
+  
+}
+form button {
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+    border-radius: 10px;
+    display: flexbox;
+    font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgb(2, 6, 41);
+  color: #fff;
+}
+
+/*--------*/
+
+
+
+#about,#projects,#skills,#contact {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+h2{
+   color: blueviolet;
+}
+.gt{
+   border: none;
+    width: 230px;
+    height: 2px;
+    border-radius: 100px;
+    margin-inline-start: 1.5px;
+    margin-block-start: 4px;
+    background-color: blueviolet;
+}
+
