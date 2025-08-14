@@ -24,6 +24,9 @@ nav {
     gap: 20px;
     text-decoration: none;
     border: none;
+    left: 10%;
+    position: absolute;
+    margin-top: 20%;
 }
 nav ul {
     display: flex;
