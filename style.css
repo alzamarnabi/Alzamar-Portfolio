@@ -26,7 +26,17 @@ nav {
     border: none;
     left: 10%;
     position: absolute;
-    margin-top: 20%;
+    margin-top: -8%;
+}
+.logo a:hover {
+    color: rgb(2, 6, 41);
+    font-size: x-large;
+}
+.logo a:link {
+    color: rgb(0, 0, 0);
+}
+.logo a:active {
+    color: rgb(0, 0, 0);
 }
 nav ul {
     display: flex;
