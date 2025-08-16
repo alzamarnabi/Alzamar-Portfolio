@@ -8,110 +8,109 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="left">Alzamar's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">Alzamar's Portfolio</div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Me</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="firstSection">
-            <div class="leftSection">
-                Hi My Name is <span class="purple"> Alzamar</span>
-                <div>and I am a passionate</div>
-                <span id="element"></span>
 
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1 id="home">
+                    Hi My Name is <span class="highlight">Alzamar</span><br>
+                    <p> and I am a passionate<br>
+                        Web Developer.</p>
+                </h1>
+                <a href="#contact"><button class="hire-me-button">Hire Me</button></a>
+                <div class="social-links">
+                    <a href="http://www.linkedin.com/in/alzamar-nabi-ansari-a379b0284" class="social-link"><img
+                            src="business.png" height="25" srcset=""></a>
+                    <a href="http://github.com/alzamarnabi" class="social-link"><img src="github.png" alt="" height="25"
+                            srcset=""></a>
+                    <a href="http://www.instagram.com/ansari_alzamar" class="social-link"><img src="instagram.png"
+                            height="25" alt="" srcset=""></a>
+                    <a href="http://x.com/ansari_alzamar" class="social-link"><img src="social-media.png" height="25"
+                            alt="" srcset=""></a>
+                </div>
             </div>
-            <a href="#contact" class="btn">Hire Me</a>
-            
-            <div class="rightSection">
-                <img src="alz.JPG" alt="">
+            <div class="profile-image-container">
+                <img src="alz.JPG" alt="Alzamar's Profile Picture" class="profile-image">
             </div>
-            
         </section>
-        <div>
-                <ul class="logo">
-                    <a href="http://www.linkedin.com/in/alzamar-nabi-ansari-a379b0284" > <img src="business.png" alt="" height="25" ></a>
-                    <a href="http://https://github.com/alzamarnabi" ><img src="git.png" alt="" srcset="" height="25"></a>
-                    <a href="http://www.instagram.com/ansari_alzamar"><img src="instagram.png" alt="" srcset="" height="25"></a>
-                   <a href="http://x.com/ansari_alzamar"><img src="social-media.png" alt="" srcset="" height="25"></a>
-                </ul>
-            </div>
-        <hr>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I’m a passionate BCA student with experience in web development, problem-solving, and building
-                scalable applications.
+
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+                I'm a passionate BCA student with experience in web development, problem-solving, and building scalable
+                applications.
             </p>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project-list">
-                <div class="project">
-                    <h3>Project One</h3>
-                    <p>I have developed a Disaster Management System.</p>
-                </div>
-                <div class="project">
-                    <h3>Project Two</h3>
-                    <p>I have developed an E-commerce website.</p>
-                </div>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-item">
+                <h3 class="project-title">Project One</h3>
+                <p class="project-description">
+                    I have developed a Disaster Management System.
+                </p>
+            </div>
+            <div class="project-item">
+                <h3 class="project-title">Project Two</h3>
+                <p class="project-description">
+                    I have developed an E-commerce website.
+                </p>
             </div>
         </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Python</li>
-                <li>Git</li>
-            </ul>
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <span class="skill-badge">HTML</span>
+                <span class="skill-badge">CSS</span>
+                <span class="skill-badge">JavaScript</span>
+                <span class="skill-badge">React</span>
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Git</span>
+            </div>
         </section>
 
-        <section id="contact">
-            <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-            <h2>Get In Touch</h2>
-            <hr class="gt">
+        <section id="contact" class="section">
+            <h2 class="section-title">Get In Touch</h2>
+            <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="55112a3e-5843-45b5-a9dd-45e967a18db9">
-
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Submit <img src="right-arrow.png" alt=""  height="12px" ></button>
-                
+                <input type="text" name="name" placeholder="Your Name" class="form-input" required>
+                <input type="email" name="email" placeholder="Your Email" class="form-input" required>
+                <textarea name="Message" placeholder="Your Message" class="form-textarea" required></textarea>
+                <button type="submit" class="submit-button">
+                    Submit <img src="right-arrow.png" alt="" height="12px" srcset="">
+                </button>
             </form>
         </section>
-
-
     </main>
 
-    <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <footer class="footer">
+        © 2025 Alzamar Nabi Ansari. All rights reserved.
     </footer>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Java Developer.'],
-            typeSpeed: 50,
-        }); 
-    </script>
-  
+
     
+
+
 
 </body>
 
